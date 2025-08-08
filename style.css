@@ -1,7 +1,10 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #fafafa;
+
+  /* Professional work-from-home vibe background */
+  background: url('bg-home-office.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 /* Header Banner */
@@ -9,14 +12,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem; /* More space left and right */
+  flex-wrap: nowrap;
+  padding: 2rem 4rem;
   background: linear-gradient(to right, #a1ffce, #faffd1); /* soft turquoise */
 }
 
 /* Text Area Inside Banner */
 .hero-text {
   max-width: 60%;
-  padding-left: 1rem; /* space from left edge */
+  padding-left: 1rem;
 }
 
 .hero h1 {
@@ -25,4 +29,61 @@ body {
 }
 
 .tagline {
-  margin: 0.5rem 0
+  margin: 0.5rem 0 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Navigation Links */
+.navbar {
+  display: block;
+  margin-top: 1rem;
+}
+
+.navbar a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #007f7f;
+}
+
+/* Banner Photo */
+.hero-photo {
+  max-height: 300px;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Main Content Box */
+.content {
+  background: rgba(255, 255, 255, 0.95); /* slightly transparent white */
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* List Items */
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background: #a1ffce;
+}
