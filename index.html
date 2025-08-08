@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aristeo A. Wong - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header class="hero">
-        <div class="container">
-            <h1 class="animate-fade">Aristeo A. Wong</h1>
-            <p class="subtitle animate-slide">IT Service Leader | Customer Experience Expert | Mentor</p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1 class="fade-in">Aristeo A. Wong</h1>
+            <p class="slide-in">IT Service Leader | Customer Experience Expert | Mentor</p>
+            <a href="#" class="btn">Download Resume</a>
         </div>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
     <main class="container">
-        <section id="about">
+        <section id="about" class="fade-in">
             <h2>About Me</h2>
-            <p>I’m an IT Service Leader with over 18 years of experience in customer service, operations management, and technical support. I specialize in motivating teams, improving performance, and solving technical challenges in high-demand environments.</p>
+            <p>I’m an IT Service Leader with 18+ years of experience in customer service, operations, and technical support. I specialize in leading teams, mentoring individuals, and optimizing IT service performance across various industries.</p>
         </section>
 
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <ul>
-                <li><strong>Team Lead - Ascendion (2021–Present):</strong> IT team management, coaching, incident analysis, hiring, and training.</li>
-                <li><strong>Customer Service Team Lead - Boss Media (2020–2021):</strong> Supervised daily operations and submitted reports to upper management.</li>
-                <li><strong>Customer Service Supervisor - 24-7 InTouch (2016–2020):</strong> Managed voice/chat support teams, facilitated training, and policy enforcement.</li>
-            </ul>
+        <section id="experience" class="fade-in">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="job">
+                    <h3>Team Lead - Ascendion</h3>
+                    <p>Managing IT support teams, hiring, coaching, incident analysis, and performance optimization.</p>
+                </div>
+                <div class="job">
+                    <h3>Customer Service Team Lead - Boss Media</h3>
+                    <p>Supervised day-to-day operations, performance reporting, and team development.</p>
+                </div>
+                <div class="job">
+                    <h3>Customer Service Supervisor - 24-7 InTouch</h3>
+                    <p>Handled inbound and outbound campaigns, agent coaching, and training facilitation.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills & Tools</h2>
-            <ul class="skills-list">
-                <li>IT Service Management</li>
-                <li>Office 365, Active Directory</li>
-                <li>Salesforce, Citrix, CRM tools</li>
-                <li>Leadership & Coaching</li>
-                <li>SharePoint, Teams, Outlook</li>
-                <li>Training and Development</li>
-            </ul>
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>IT Service Management</span>
+                <span>Office 365</span>
+                <span>Active Directory</span>
+                <span>Salesforce</span>
+                <span>Citrix</span>
+                <span>CRM Tools</span>
+                <span>SharePoint</span>
+                <span>Teams</span>
+                <span>Outlook</span>
+                <span>Leadership & Coaching</span>
+                <span>Training & Development</span>
+            </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="fade-in">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:aristeo.wong@gmail.com">aristeo.wong@gmail.com</a></p>
             <p>Phone: +63 916 5404747</p>
